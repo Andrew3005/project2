@@ -1,0 +1,308 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.hor_line{
+		left:200px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.work_block1{
+		top:50px;
+	}
+
+	.btn1{
+		height:50px;
+		margin-top:20px;
+	}
+
+	.img2 img:first-child{	
+		display:none;
+	}
+
+	.img2 img:last-child{
+		position:relative;
+	}
+
+	.tablet_img{
+		display:none;
+	}
+
+	.hor_line{
+		display:none;
+	}
+
+	.logos{
+		margin-top:60px;
+	}
+
+	.logo1, .logo2{
+		margin-bottom:50px;
+	}
+
+	.nwsp2 i{
+		clear:both;
+		margin-top:20px;		
+	}
+
+	.nwsp2 p{
+		margin-top:40px;
+		margin-left:50px;	
+	}
+
+	.hashtag{
+		line-height:0px;
+	}
+
+	.time{
+		line-height:0px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logo1 a{
+		margin-top:-7px;
+	}
+
+	.row1{
+		height:80px;
+		line-height:110px;
+	}
+
+	.menu li{
+		display:block;
+		border:2px solid black
+	}
+
+	#top_menu{
+		width:100%;
+		margin-top:25px;
+	}
+
+	.menu li a{
+		height:110px;
+		display:block;
+		text-align:center;
+	}
+
+	.menu li a:hover{
+		color:white;
+		background-color:rgb(124, 197, 118);
+	}
+
+	button{
+		height:0px;
+		top:-18px;
+	}
+
+	.work_block1{
+		top:0px;
+	}
+
+	.work_block1 h1, .work_block1 p{
+		line-height: 12px;
+	}
+
+	.work_block1 h1{
+		font-size:24px;
+	}
+
+	.work_block1 h1 + p{
+		margin-top:0px;		
+		font-size:12px;
+	}
+
+
+	.btn1{
+		margin-top:20px;
+		height:30px;
+		line-height:0px;
+	}
+
+	.work_block3 h3 + p{
+		line-height:40px;
+		margin-bottom:50px;
+	}
+
+	.relax_text{
+		top:30px;
+	}
+
+	.relax_text h2 + p{
+		line-height:20px;
+	}
+
+	.client1 .pers img, .client2 .pers img{
+		width:180px;
+		height:180px;
+	}
+		
+	.logo4{
+		margin-top:50px;
+	}
+}
+
+@media only screen and (max-width : 630px) {
+	.btn2{
+		height:40px;
+	}
+
+	.logo1{
+		margin-top:3px;
+	}
+
+	.row1{
+		height:80px;
+		line-height:110px;
+	}
+
+	.work_block1{
+		top:0px;
+	}
+
+	.work_block1 h1 + p{
+		margin-top:0px;
+	}
+
+	.btn1{
+		margin-top:5px;
+	}
+
+	.relax_text{
+		top:0px;
+	}
+
+	.relax_text h2{
+		font-size:22px;
+	}
+
+	.relax_text h2 + p{
+		font-size:12px;
+	}
+
+	.relax_text li{
+		font-size:12px;
+	}
+	.relax_text li > i:last-child{
+		margin-bottom:10px;
+	}
+
+	.client1 .pers img, .client2 .pers img{
+		width:145px;
+		height:145px;
+	}
+
+	.text1 i{
+		margin-right:5px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.btn2{
+		height:30px;
+	}
+	
+	.logo1 a{
+		margin-top:-25px;
+	}
+
+	.row1{
+		height:70px;
+		line-height:80px;
+	}
+
+	.work_block1{
+		margin-top:10px;
+	}
+	
+	.work_block1 h1 > p{
+		line-height:20px;
+		margin-bottom:0px;
+		font-size:16px;		
+	}
+
+	.work_block1 h1 + p{
+		margin-top:-15px;
+	}
+
+	.btn1{
+		margin-top:-5px;
+	}
+
+	.relax_text{
+		top:0;
+	}
+
+	.relax_text h2{
+		font-size:14px;
+	}
+
+	.relax_text h2:first-child{
+		margin-bottom:-15px;
+	}
+
+	.relax_text h2 + p{
+		font-size:8px;
+	}
+
+	.relax_text li{
+		font-size:8px;
+	}
+	
+	.btn2{
+		margin-top:-10px;
+	}
+
+	.client1 .pers img, .client2 .pers img{
+		width:130px;
+		height:130px;
+	}
+
+	.client2 .pers img{
+		margin-left:-40px;
+	}
+
+	.client1 .comment, .client2 .comment{
+		margin-top:-20px;
+	}
+
+	.client1 .comment{
+		margin-left:70px;
+	}
+
+	.comment p:last-child{
+		margin-left:10px;
+	}
+
+	.text1{
+		height:50px;
+	}
+
+	.text1 span:first-child{
+		font-size:12px;
+	}
+
+	.text1 span:last-child{
+		margin-left:5%;
+	}
+
+	.text1 i{
+		margin-right:5px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.work_block1{
+		top:-30px;
+	}	
+
+	.text1 span:first-child{
+	font-size:9px;
+}	
+	
+}
